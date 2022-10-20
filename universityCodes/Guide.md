@@ -5,3 +5,9 @@ This is the first set of exercises I did in Matlab, therefore it is a series of 
 
 Moreover, it was asked of us to do some opeartion on the values of these matrices: 
 calculating **mean**, performing **element by element** operations, etc.
+## Ex2
+## Ex3
+## Ex4
+## Ex5
+## Ex6
+## Ex7
