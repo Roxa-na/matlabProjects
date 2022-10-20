@@ -1,10 +1,8 @@
 %----------------------------
 % Exercise Chapter 5
-% Name : Roxana Alebuye Samami
-% Student No.: 2110769023
 %----------------------------
 clc
-clear 
+clear
 close
 %5.1
 
@@ -47,13 +45,7 @@ end
 rand_matrix = rand(10,10)*10;
 for i=1:size(rand_matrix,1)
     for j=1:size(rand_matrix,2)
-        rand_matrix(i,j) = rand_matrix(i,j) * i; 
+        rand_matrix(i,j) = rand_matrix(i,j) * i;
     end
 
 end
-
-
-
-
-
-

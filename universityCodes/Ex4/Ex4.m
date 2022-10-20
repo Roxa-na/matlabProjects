@@ -1,7 +1,5 @@
 %----------------------------
 % Exercise Chapter 4
-% Name : Roxana Alebuye Samami
-% Student No.: 2110769023
 %----------------------------
 clc
 clear
@@ -14,7 +12,7 @@ if num_val > 0
     res_val = 'positive'
 elseif num_val == 0
     res_val = 'zero'
-else 
+else
     res_val = 'negative'
 end
 disp("--------------------------------------------\n");
@@ -27,7 +25,7 @@ elseif (num_val >= 10) & (num_val <= 20)
      res_range = '10 <= value <= 20'
 elseif (num_val > 20)
      res_range = 'value > 20'
-else 
+else
     res_range = 'value < 0'
 end
 disp("--------------------------------------------\n");
@@ -60,8 +58,3 @@ switch string_var(1)
         res_string = 'different character'
 end
 disp("--------------------------------------------\n");
-
-
-
-
-
