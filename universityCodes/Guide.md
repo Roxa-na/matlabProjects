@@ -6,9 +6,9 @@ This is the first set of exercises I did in Matlab, therefore it is a series of 
 Moreover, it was asked of us to do some opeartion on the values of these matrices: 
 calculating **mean**, performing **element by element** operations, etc.
 ## Ex2
-
+Reading from files(csv file), plotting and storing the plots in different formats were done in this exercise.
 ## Ex3
-
+Reading from files, plotting and creating suplots. also saving the plots as jpeg files.
 ## Ex4
 
 ## Ex5
