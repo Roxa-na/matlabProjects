@@ -15,5 +15,6 @@ In this exercise, **loop structures** for different examples were written and th
 ## Ex6
 In this exercise, **matlab custome functions** for different examples were written. Moreover, the execution time of **nested-for-loops** approach and the **vectorized** one for the multiplication of large matrices were measured. 
 ## Ex7
-This was the last project that was done. A **GUI program** was created that generated waveforms for **sine** and **cosine** function. The program got the **amplitude**, **frequency**, and **number of periods** that user wanted to see. Also, the program gave the option of adding **noise** to the waveform. The amount of noise could be controlled by percentage. At the end, the waveform could be saved via a save button. The GUI looks like the photo below. 
-![Waveform generator](https://github.com/Roxa-na/matlabProjects/blob/main/universityCodes/Ex7/Screenshot%202022-10-20%20221014.png)
+This was the last project that was done. A **GUI program** was created that generated waveforms for **sine** and **cosine** function. The program got the **amplitude**, **frequency**, and **number of periods** that user wanted to see. Also, the program gave the option of adding **noise** to the waveform. The amount of noise could be controlled by percentage. At the end, the waveform could be saved via a save button. The GUI looks like the photo below.  
+
+![Waveform generator](https://github.com/Roxa-na/matlabProjects/blob/main/universityCodes/Ex7/screenShot.png)
