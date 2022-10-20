@@ -5,6 +5,9 @@ clc
 clear
 close
 %4.1
+% Create a program with if-else statements
+% Identify with if-else statements whether the value in the csv file
+%is positive, negative or zero.
 disp("This is the first exercise: \n");
 dRead = readmatrix('num_value.csv');
 num_val = dRead;
@@ -18,6 +21,7 @@ end
 disp("--------------------------------------------\n");
 %----------------------------------------------------------
 %4.2
+%Identify whether that value belings to a range from 0 to 20 or higher.
 disp("This is the second exercise: \n");
 if (num_val >= 0) & (num_val < 10)
     res_range = '0 <= value < 10'
@@ -31,6 +35,7 @@ end
 disp("--------------------------------------------\n");
 %----------------------------------------------------------
 %4.3
+% certain condition to assess the validity of a statement
 disp("This is the third exercise: \n");
 switch num_val
     case 1
@@ -47,6 +52,7 @@ end
 disp("--------------------------------------------\n");
 %----------------------------------------------------------
 %4.4
+%A switch-case that checkas the first letter of a string
 disp("This is the forth exercise: \n");
 string_var = 'this is a string.'
 switch string_var(1)
