@@ -17,4 +17,4 @@ In this exercise, loop structures for different examples were written and the us
 In this exercise, **matlab cutome functions** for different examples were written. Moreover, the execution time of **nested-for-loops** approach and the **vectorized** one for the multiplication of large matrices were measured. 
 ## Ex7
 This was the last project that was done. A GUI program was created that generated waveforms for sine and cosine function. The program got the amplitude, frequency, and number of periods that user wanted to see. Also, the program gave the option of adding noise to the waveform. The amount of noise could be controlled by percentage. At the the end the waveform coud be saved via a save button.
-![alt text](universityCodes/Ex7/Screenshot 2022-10-20 221014.png)
+![alt text](https://github.com/Roxa-na/matlabProjects/blob/main/universityCodes/Ex7/signal_generator.mlapp)
