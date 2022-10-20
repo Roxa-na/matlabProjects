@@ -14,5 +14,5 @@ calculating **mean**, performing **element by element** operations, etc.
 ## Ex5
 
 ## Ex6
-In this exercise, **matlab cutome functions** for different examples were written. Moreover, the performance of **nested-for-loops** approach and the **vectorized** one were investigated for the multiplication of large matrices. 
+In this exercise, **matlab cutome functions** for different examples were written. Moreover, the execution time of **nested-for-loops** approach and the **vectorized** one for the multiplication of large matrices were measured. 
 ## Ex7
