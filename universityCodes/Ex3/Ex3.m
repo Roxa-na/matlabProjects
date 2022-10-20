@@ -60,9 +60,11 @@ figure(2);
 hold on
 x = 0:0.001:4*pi;
 y = sin(x);
+% creating the noise signal
 noise_signal = rand(1,length(x))*0.2 - 0.1;
 s = y + noise_signal;
 %first subplot
+%pure signal is plotted
 subplot(3,1,1)
 plot(x,y);
 grid on;
@@ -71,20 +73,22 @@ xlabel('x[0,4pi]');
 ylabel('sin(x)');
 
 %second subplot
+%noise signal is plotted
 subplot(3,1,2)
 plot(x,noise_signal);
 grid on;
 title('noise signal');
-xlabel('random values');
-ylabel('sin(x)');
+xlabel('x[0,4pi]');
+ylabel('random values');
 
 %third subplot
+%noisy signal -> pure + noise is plotted.
 subplot(3,1,3)
 plot(x,s);
 grid on;
-title('noise signal');
-xlabel('random values');
-ylabel('sin(x)');
+title('noisy signal');
+xlabel('x[0,4pi]');
+ylabel('sin(x) + noise');
 
 
 hold off
@@ -93,6 +97,7 @@ print('sin_noise_plot.jpeg','-djpeg');
 % 3.3
 %Create two plots consisting of two subplots
 % store it as -djpeg
+%measuremt.csv had 2 columns: path delay and clock clock skew
 close
 data_read = dlmread('measurement.csv',';');
 path_delay_microsec = data_read(:,1);
@@ -101,6 +106,8 @@ threshold = 10 + mean(path_delay_microsec(1:950))
 %first plot
 figure(3)
 hold on
+% the path delay and the threshold which is 10 us
+% above the calculated mean are plotted
 %first subplot
 subplot(2,1,1)
 plot(path_delay_microsec)
@@ -108,6 +115,7 @@ yline(threshold);
 grid on
 legend ('path delay', 'threshold');
 title('path delay values in microsec');
+xlabel('time/s');
 ylabel('path delay[microsec]');
 %second subplot
 subplot(2,1,2)
@@ -115,6 +123,7 @@ plot(clock_skew_ppm)
 grid on
 hold off
 title('clock skew values in ppm');
+xlabel('time/s');
 ylabel('clock skew[ppm]');
 print('time_trend.jpeg','-djpeg');
 
